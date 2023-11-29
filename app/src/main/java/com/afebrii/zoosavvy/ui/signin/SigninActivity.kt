@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.afebrii.zoosavvy.R
 import com.afebrii.zoosavvy.databinding.ActivitySigninBinding
+import com.afebrii.zoosavvy.ui.main.MainActivity
 import com.afebrii.zoosavvy.ui.signup.SignupActivity
 
 class SigninActivity : AppCompatActivity() {
@@ -16,6 +17,12 @@ class SigninActivity : AppCompatActivity() {
 
         binding.registerHereButton.setOnClickListener {
             val i = Intent(this, SignupActivity::class.java)
+            startActivity(i)
+            finish()
+        }
+
+        binding.signinButton.setOnClickListener {
+            val i = Intent(this, MainActivity::class.java)
             startActivity(i)
             finish()
         }
