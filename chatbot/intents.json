@@ -1,0 +1,54 @@
+{
+    "intents": [
+        {
+            "tag": "salam",
+            "patterns": ["Halo", "Apa kabar?", "Ada yang bisa saya bantu?", "Hai", "Hello", "Selamat siang"],
+            "responses": ["Halo, terima kasih telah bertanya", "Selamat datang di Kebun Binatang, bagaimana saya bisa membantu Anda?", "Hai, ada yang bisa saya jelaskan tentang kebun binatang?"]
+        },
+        {
+            "tag": "selamat tinggal",
+            "patterns": ["Selamat tinggal", "Sampai jumpa nanti", "Sampai jumpa", "Terima kasih atas kunjungannya, sampai jumpa nanti", "Sampai ketemu lain waktu"],
+            "responses": ["Sampai jumpa!", "Semoga Anda memiliki waktu yang menyenangkan di kebun binatang.", "Selamat tinggal! Kembali lagi nanti ya."]
+        },
+        {
+            "tag": "terima kasih",
+            "patterns": ["Terima kasih", "Makasih ya", "Bantuanku sangat berguna", "Keren, terima kasih", "Terima kasih atas bantuanmu"],
+            "responses": ["Senang bisa membantu!", "Kapan saja!", "Sama-sama"]
+        },
+        {
+            "tag": "tanpa jawaban",
+            "patterns": [],
+            "responses": ["Maaf, saya tidak mengerti", "Tolong berikan info lebih lanjut", "Saya tidak yakin saya mengerti"]
+        },
+        {
+            "tag": "pilihan",
+            "patterns": ["Bagaimana Anda bisa membantu saya?", "Apa yang bisa Anda lakukan?", "Apa bantuan yang Anda tawarkan?", "Bagaimana Anda bisa membantu?", "Apa dukungan yang ditawarkan?"],
+            "responses": ["Saya bisa memberikan informasi menarik tentang konservasi hewan di kebun binatang, termasuk fakta-fakta menyenangkan tentang upaya pelestarian kami. Apa yang ingin Anda ketahui?"]
+        },
+        {
+            "tag": "konservasi_hewan",
+            "patterns": ["Berbicara tentang konservasi hewan", "Ceritakan lebih lanjut tentang konservasi hewan", "Bagaimana saya bisa mendukung konservasi?", "Program konservasi hewan apa yang ada di kebun binatang?", "Apa yang bisa saya lakukan untuk melindungi hewan langka?"],
+            "responses": ["Tentu! Konservasi hewan adalah prioritas utama kami. Misalnya, kami memiliki program pelestarian harimau sumatera yang sangat langka. Saat ini, hanya ada sekitar 400 harimau sumatera yang tersisa di alam liar. Kami juga berpartisipasi dalam upaya pelestarian orangutan dan berbagai spesies lainnya. Anda bisa mendukung pelestarian ini dengan menjadi donatur atau mengunjungi kebun binatang kami. Apakah ada hal lain yang ingin Anda tanyakan tentang konservasi hewan?"]
+        },
+        {
+            "tag": "fakta_konservasi",
+            "patterns": ["Ceritakan fakta menarik tentang konservasi", "Fakta unik tentang pelestarian hewan", "Beritahu saya lebih tentang pelestarian hewan", "Berikan saya fakta konservasi", "Fakta seru tentang upaya pelestarian"],
+            "responses": ["Tentu! Salah satu fakta menarik adalah bahwa kebun binatang kami aktif terlibat dalam program pelestarian harimau sumatera, yang merupakan spesies yang sangat langka. Selain itu, kami juga berperan dalam melestarikan hutan hujan yang menjadi habitat alami banyak hewan. Dukungan Anda sangat berarti bagi upaya pelestarian ini."]
+        },
+        {
+            "tag": "informasi_kunjungan",
+            "patterns": ["Jam buka kebun binatang", "Harga tiket masuk", "Apa saja fasilitas di kebun binatang?", "Bagaimana cara menuju kebun binatang?", "Ada restoran di kebun binatang?"],
+            "responses": ["Jam buka kebun binatang kami adalah pukul 09.00 - 17.00 setiap hari. Untuk harga tiket masuk dan informasi lebih lanjut, Anda dapat mengunjungi situs web kami. Kebun binatang kami dilengkapi dengan berbagai fasilitas termasuk restoran, area bermain anak, dan tempat istirahat. Alamat dan petunjuk menuju kebun binatang juga dapat ditemukan di situs web kami."]
+        },
+        {
+            "tag": "hewan_langka",
+            "patterns": ["Hewan langka apa yang ada di kebun binatang?", "Apakah ada hewan langka di kebun binatang?", "Ceritakan tentang hewan yang hampir punah", "Apa upaya kebun binatang untuk melindungi hewan langka?"],
+            "responses": ["Kami memiliki berbagai hewan langka di kebun binatang kami, termasuk harimau sumatera, orangutan, dan badak. Upaya pelestarian kami mencakup pemeliharaan dan penelitian untuk mendukung reproduksi hewan-hewan tersebut. Kami juga bekerja sama dengan organisasi konservasi untuk melestarikan habitat alami mereka."]
+        },
+        {
+            "tag": "kegiatan_edukasi",
+            "patterns": ["Apa saja kegiatan edukasi yang ada di kebun binatang?", "Bagaimana saya bisa ikut serta dalam kegiatan edukasi?", "Apakah ada tur edukasi untuk anak-anak?", "Ceritakan tentang program edukasi"],
+            "responses": ["Kami menyelenggarakan berbagai kegiatan edukasi di kebun binatang, termasuk tur edukasi, ceramah, dan pertunjukan hewan. Anda dapat mengikuti tur edukasi yang dipandu oleh pemandu berpengalaman untuk memahami lebih jauh tentang hewan-hewan di kebun binatang dan upaya konservasi kami."]
+        }
+    ]
+}
