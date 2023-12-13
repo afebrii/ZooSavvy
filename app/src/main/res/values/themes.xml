@@ -5,5 +5,13 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.ZooSavvy" parent="Base.Theme.ZooSavvy" />
+<!--    <style name="Theme.ZooSavvy" parent="Base.Theme.ZooSavvy" />-->
+    <style name="Theme.ZooSavvy" parent="Base.Theme.ZooSavvy">
+        <item name="colorPrimary">@color/green</item>
+    </style>
+    
+    <style name="SplashScreenStyle" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 </resources>
